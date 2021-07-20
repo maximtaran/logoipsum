@@ -1,0 +1,100 @@
+.productbuy_{
+    &_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_title{
+        @include dmSans;
+
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -1.875789999961853px;
+        text-align: left;
+    }
+    &_btn{
+        width: 160px;
+        height: 55px;
+        border-radius: 10px;
+
+        &_double{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(247, 247, 251, 1);
+            border-radius: 10px;
+        }
+    }
+    
+} 
+
+
+.active1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background-color: rgba(84, 84, 212, 1);
+    color: white;
+}
+
+.radiobtn_{
+    
+    &_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 330px;
+        height: 441px;
+        border-radius: 10px;
+        padding-bottom: 34px;
+        background-color: rgba(248, 248, 248, 1);
+    }
+    &_price{
+        margin-bottom: 28px;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 56px;
+        letter-spacing: -1.03448px;
+    }
+    &_advantages{
+        list-style: none;
+        font-size: 17px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    &_text{
+        padding-top: 34px;
+    }
+    &_btn{
+        @include btn-big;
+
+        margin: 0 auto;
+        background-color: transparent;
+        width: 305px;
+        color: rgba(84, 84, 212, 1);
+        transition: .5s linear;
+    }
+    &_btn:hover{
+        background-color: rgba(159, 57, 25, 1);
+        color:#fff;
+    }
+}
+
+.active{
+    background-color: rgba(255, 113, 67, 1);
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    color: rgba(247, 247, 251, 1);
+    width: 376px;
+    height: 473px;
+}

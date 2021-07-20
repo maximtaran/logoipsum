@@ -1,0 +1,44 @@
+.functions_{
+    &_wrapper{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-bottom: 150px;
+        
+    }
+    &_item{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        
+        &__title{
+            @include dmSans;
+
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: -0.7503160238265991px;
+            text-align: center;
+            color:rgba(25, 25, 27, 1);
+        }
+        &__img{
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            
+        } 
+        &__text{
+            @include mulish;
+
+            max-width: 307px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.5002105832099915px;
+            text-align: center;
+            color:rgba(105, 104, 113, 1);
+        }
+    }
+
+}
